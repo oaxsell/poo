@@ -5,3 +5,4 @@ class Personagem:
         self.altura = altura
         self.peso = peso
         self.cor = cor
+pass
