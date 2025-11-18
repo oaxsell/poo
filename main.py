@@ -1,4 +1,5 @@
 from personagem import Personagem
+from restaurante import Restaurante
 
 print("""
 ███╗░░░███╗░█████╗░██╗░░██╗███████╗██████╗░██╗███████╗███████╗░█████╗░
@@ -27,3 +28,9 @@ print(f"A idade do personagem é {p1.idade}")
 print(f"A altura do personagem é {p1.altura}")
 print(f"O peso do personagem é {p1.peso}")
 print(f"A cor do personagem é {p1.cor}")
+
+p2 = Restaurante(nome="Rei do Cerrrado", tipo_cozinha="Italiana", avaliacao=5, preco_medio=50.00)
+print(f"O nome do personagem é {p2.nome}")
+print(f"O tipo de cozionha é {p2.tipo_cozinha}")
+print(f"A avalicao em estrelas é {p2.avaliacao}")
+print(f"O preco medio é {p2.preco_medio}")
